@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="737.5dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:scaleType="fitStart"
+    android:background="@drawable/background">
+
+    <ImageView
+        android:layout_width="5.3dp"
+        android:layout_height="14dp"
+        android:layout_marginStart="24.7dp"
+        android:layout_marginTop="37.3dp"
+        android:src="@drawable/back" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-20dp"
+        android:layout_marginLeft="162.7dp"
+        android:text="座椅"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="141.3dp"
+        android:layout_width="match_parent"
+        android:layout_marginTop="200dp">
+
+        <ImageView
+            android:id="@+id/Car"
+            android:layout_width="141.3dp"
+            android:layout_height="141.3dp"
+            android:layout_marginLeft="197.3dp"
+            android:src="@drawable/car" />
+
+        <ImageView
+            android:id="@+id/Car1"
+            android:layout_width="22.7dp"
+            android:layout_height="22.7dp"
+            android:layout_marginLeft="-119.3dp"
+            android:layout_marginTop="33.3dp"
+            android:src="@drawable/car1" />
+
+        <ImageView
+            android:id="@+id/Car4"
+            android:layout_width="22.7dp"
+            android:layout_height="22.7dp"
+            android:layout_marginLeft="54.7dp"
+            android:layout_marginTop="33.3dp"
+            android:src="@drawable/car4" />
+
+        <ImageView
+                android:id="@+id/Car5"
+                android:layout_width="22.7dp"
+                android:layout_height="22.7dp"
+                android:layout_marginLeft="-99.4dp"
+                android:layout_marginTop="93.3dp"
+                android:src="@drawable/car5" />
+
+        <ImageView
+                android:id="@+id/Car7"
+                android:layout_width="22.7dp"
+                android:layout_height="22.7dp"
+                android:layout_marginLeft="54dp"
+                android:layout_marginTop="93.3dp"
+                android:src="@drawable/car7" />
+
+        <ImageView
+            android:id="@+id/Seat1"
+            android:layout_width="63.3dp"
+            android:layout_height="28dp"
+            android:src="@drawable/seat1"
+            android:layout_marginTop="36dp"
+            android:layout_marginLeft="-298dp"/>"
+
+
+        <ImageView
+                android:id="@+id/Seat5"
+                android:layout_width="63.3dp"
+                android:layout_height="28dp"
+                android:layout_marginLeft="-63.3dp"
+                android:layout_marginTop="89.3dp"
+                android:src="@drawable/seat5" />
+
+        <ImageView
+            android:id="@+id/Seat4"
+            android:layout_width="63.3dp"
+            android:layout_height="28dp"
+            android:src="@drawable/seat4"
+            android:layout_marginTop="36dp"
+            android:layout_marginLeft="10.7dp" />
+
+        <ImageView
+                android:id="@+id/Seat7"
+                android:layout_width="63.3dp"
+                android:layout_height="28dp"
+                android:layout_marginLeft="-63.3dp"
+                android:layout_marginTop="89.3dp"
+                android:src="@drawable/seat7" />"
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
